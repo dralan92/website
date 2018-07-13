@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>assignment6</title>
+		<meta name="description" content="">
+		<meta name="author" content="Alan">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel = "stylesheet" type = "text/css" href ="style.css" />
+		<script type = "text/javascript" src ="javascript/jquery-3.3.1.min.js"></script>
+		<script type = "text/javascript" src ="javascript/script.js"></script>
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+	</head>
+
+	<body>
+		<div>
+	<header>
+				
+			
+			
+		<div id="topSliderMenu" >
+			<div class="jumbotron jumbotron-fluid" style="background-color: #fcf646;">
+			  <div class="container text-sm-center pt-5">
+			    <h1 class="display-2">ALAN ENTERPRISE</h1>
+			    
+				
+			  </div>
+			</div>
+			<div class = "container mr-0">
+				<div class = "row">
+					<div class = "col">
+						<h4><strong>EMPLOYEE DETAILS</strong></h4>
+					</div>
+					<div class = "col">
+						<h4><strong>SALARY</strong></h4>
+					</div>
+					<div class = "col">
+						<h4><strong>BENIFITS</strong></h4>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col">
+						<h4><strong>REGISTRATION</strong></h4>
+					</div>
+					<div class = "col">
+						<h4><strong>LOGIN</strong></h4>
+					</div>
+					<div class = "col">
+						<h4><strong>TOURS</strong></h4>
+					</div>
+					
+				</div>
+				<div class = "row">
+					<div class = "col">
+						<h4><strong>RETIREMENT</strong></h4>
+					</div>
+					<div class = "col">
+						<h4><strong>WHIMIS</strong></h4>
+					</div>
+					<div class = "col">
+						<h4><strong>VACCATION</strong></h4>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	<body id="assignment6Body">
+		
+	</body>
+		<div id="empRegForm" class = "container">
+			<div class="jumbotron jumbotron-fluid " style="background-color: #fcf646;">
+			  <div class="container text-sm-center pt-3">
+			    <h1 class="display-2">EMPLOYEE DETAILS</h1>
+			  </div>
+			</div>
+			<form id ="regForm">
+				<div>
+					<label for = "fname">First Name : </label>
+					<input id = "fname" type = "text" class="form-control" placeholder="First Name"/>
+				</div>
+				<div>
+					<label for = "lname">Last Name : </label>
+					<input id = "lname" type = "text" class="form-control" placeholder="Last Name"/>
+				</div>
+				<div>
+					<label for = "age">Age : </label>
+					<input name = "age" id = "age" type = "number" class="form-control" placeholder="Age" min="18" max="40"/>
+				</div>
+				<div>
+					<label for = "doj">Date Of Join : </label>
+					<input id = "doj" type = "date" class="form-control" placeholder="Date Of Join" />
+				</div>
+				<div>
+					<label for = "des">Designation : </label>
+					<input id = "des" type = "text" class="form-control" placeholder="Designation" required/>
+				</div>
+				<div>
+					<label for = "shift">Shift : </label>
+						<select id = "shift" class="form-control">
+						  <option value="volvo">Night</option>
+						  <option value="saab">Morning</option>
+						  <option value="opel">Evening</option>
+						  <option value="audi">Weekend</option>
+						</select>
+				</div>
+				<div>
+					<label for = "add">Address : </label>
+					<input id = "add" type = "text" class="form-control" placeholder="Address" required/>
+				</div>
+				<div>
+					<label for = "pass">Password : </label>
+					<input id = "pass" type = "password" class="form-control" placeholder="Password" pattern="[A-Z]{2}[a-z]{2}[0-9]{2}[^0-9a-zA-Z]{2}$"/>
+				</div><br>
+				 <button type="submit" class="btn btn-primary form-control">Submit</button>
+			</form>
+			
+		</div>
+			<footer>
+				
+			</footer>
+		</div>
+	</body>
+</html>
